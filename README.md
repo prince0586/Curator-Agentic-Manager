@@ -11,7 +11,7 @@ Follow these steps to set up the environment and run the agent on your local mac
 Open your terminal and use the cd command to enter your project folder.
 Bash
 
-__cd path/to/your/Digital-Janitor-Project__
+RUN THIS -> __cd path/to/your/Digital-Janitor-Project__
 
 #2. Set Up a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies safely.
@@ -20,37 +20,37 @@ Bash
 Activate the environment
 
 On Windows:
-__.venv\Scripts\activate__
+RUN THIS -> __.venv\Scripts\activate__
 
 On macOS/Linux:
-__source .venv/bin/activate__
+RUN THIS -> __source .venv/bin/activate__
 
 #3. Install Dependencies
 Install the necessary libraries for file system monitoring and AI integration.
 Bash
 
-__pip install watchdog google-generativeai__
+RUN THIS -> __pip install watchdog google-generativeai__
 
 #4. Configure Your API Key
 The agent requires a Google AI Studio API key to analyze file types. Replace YOUR_API_KEY with your actual key.
 
 you will find api key in google AI studio.
-__Windows (CMD): set GOOGLE_API_KEY=YOUR_API_KEY__
+RUN THIS -> __Windows (CMD): set GOOGLE_API_KEY=YOUR_API_KEY__
 
-__macOS/Linux: export GOOGLE_API_KEY='YOUR_API_KEY'__
+RUN THIS -> __macOS/Linux: export GOOGLE_API_KEY='YOUR_API_KEY'__
 
 OR
 
-__set api key in .env file, then put it in .gitegnore in github__
+RUN THIS -> __set api key in .env file, then put it in .gitegnore in github__
 
 #5. Run the Agent
 Execute the main script to start monitoring your downloads.
 Bash
 
-__python curator.py__
+RUN THIS -> __python curator.py__
 
 🛑 How to Stop
-__To stop the agent from monitoring your files, return to the terminal and press: Ctrl + C__
+RUN THIS -> __To stop the agent from monitoring your files, return to the terminal and press: Ctrl + C__
 
 🛠️ How it Works
 Watchdog: Monitors the file system for "Created" or "Moved" events in real-time.
