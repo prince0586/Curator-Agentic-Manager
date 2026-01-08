@@ -12,7 +12,7 @@ Follow these steps to set up the environment and run the agent on your local mac
 Open your terminal and use the cd command to enter your project folder.
 Bash
 
-RUN THIS -> __cd path/to/your/Digital-Janitor-Project__
+RUN THIS -> __cd path/to/your/Curator-Agent-Project__
 
 #2. Set Up a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies safely.
